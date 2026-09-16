@@ -194,7 +194,7 @@ To get the pending owner of a profile:
 
 ```javascript
 const profileId = "your_profile_id_here";
-const pendingOwner: string = await registry.getProfileIdToPendingOwner(
+const pendingOwner: string = await registry.profileIdToPendingOwner(
   profileId,
 );
 console.log(pendingOwner);
